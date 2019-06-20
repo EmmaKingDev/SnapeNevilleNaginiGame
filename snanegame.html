@@ -1,0 +1,58 @@
+<!--
+Inspiration by whatsdev, thank you!
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Snape Neville Nagini Game</title>
+    <link rel="stylesheet" href="snenastyle.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Snape Neville Nagini</h1>
+    </header>
+
+    <p class="intro">
+      Neville beheads Nagini <br />
+      Nagini eats Snape <br />
+      Snape gives detention to Neville
+    </p>
+
+    <div class="choices">
+      <div class="choice" id="s">
+        <p>Snape</p>
+      </div>
+      <div class="choice" id="ne">
+        <p>Neville</p>
+      </div>
+      <div class="choice" id="na">
+        <p>Nagini</p>
+      </div>
+    </div>
+
+    <div class="result">
+      <p>Choose your champion</p>
+    </div>
+
+    <div class="score-board">
+      <div class="badge" id="user-label">you</div>
+      <div id="comp-label" class="badge">they</div>
+      <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <input
+      type="button"
+      class="reload"
+      value="Reset"
+      onClick="document.location.reload(true)"
+    />
+
+    <div class="footercarrier">
+      <a href="index.html" class="footer">Back to Emma Ilona King</a>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
